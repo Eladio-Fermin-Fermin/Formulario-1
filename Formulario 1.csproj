@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Formulario_1</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="descarga.png" />
+    <None Remove="h.png" />
+    <None Remove="nuevo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="descarga.png" />
+    <Resource Include="h.png" />
+    <Resource Include="nuevo.png" />
+  </ItemGroup>
+
+</Project>
